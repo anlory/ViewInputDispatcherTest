@@ -15,7 +15,7 @@
         <com.anlory.viewinputdispatchertest.MyButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/MyButton
+            android:id="@+id/mybutton
 "           android:text="MyButton"
             tools:layout_editor_absoluteX="140dp"
             tools:layout_editor_absoluteY="155dp"

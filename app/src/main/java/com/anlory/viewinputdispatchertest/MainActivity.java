@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        findViewById(R.id.MyButton).setOnTouchListener(new View.OnTouchListener() {
+        findViewById(R.id.mybutton).setOnTouchListener(new View.OnTouchListener() {
                                                            @Override
                                                            public boolean onTouch(View v, MotionEvent event) {
                                                                Log.d(TAG,getFunc(new Exception()));
@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
                                                            }
                                                        }
         );
-        findViewById(R.id.MyButton).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.mybutton).setOnClickListener(new View.OnClickListener() {
                                                            @Override
                                                            public void onClick(View v) {
                                                                Log.d(TAG,getFunc(new Exception()));
